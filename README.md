@@ -16,7 +16,7 @@ Tout d'abord on a crée des insterfaces et des implémentations de ces interface
 ce type de instanciation permet de resoudre le problem de de modifier chaque fois dans le code,il suffit de changer dans le fichier config.txt sans toucher le code source pour appelé n'import quel implémentations.
 
 - Pour appelé l'implémentation du la version du base de donnees il suffit d'ecrire dao.Idao dans le fichier  fichier config text et on obtient le resultat suivant:
-- 
+
  ![image](https://user-images.githubusercontent.com/102295113/162544877-f117fa2f-0c1b-4561-ae79-fea3fff502c8.png)
  
 -Pour afficher la version du capteur il suffit d'ecrire ext.DaoImp2 fichier config text et on obtient le resultat suivant:
@@ -24,7 +24,7 @@ ce type de instanciation permet de resoudre le problem de de modifier chaque foi
 ![image](https://user-images.githubusercontent.com/102295113/162545946-d644ad6f-aefa-4066-b3fc-11ea393b6bd9.png)
 
 - Et finalement pour appelé l'implémentation de la version du web service il suffit d'ecrire ext.DaoImplWs dans le fichier config text et on obtient le resultat suivant:
-- 
+
 ![image](https://user-images.githubusercontent.com/102295113/162546514-db6b5b2b-7dd7-443b-95bc-e7d389e83c0f.png)
 
 
